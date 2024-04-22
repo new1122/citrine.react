@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/citrine.react/static/css/main.c3b97dcf.css",
+    "main.js": "/citrine.react/static/js/main.4a77f9eb.js",
+    "static/media/LOGO-FILE.mp4": "/citrine.react/static/media/LOGO-FILE.5a5b07aead50155196a2.mp4",
+    "static/media/image-1.png": "/citrine.react/static/media/image-1.9f416facd5614e67c9ab.png",
+    "static/media/image-2.png": "/citrine.react/static/media/image-2.8e0612907ae0c7d7aaf4.png",
+    "static/media/image-3.png": "/citrine.react/static/media/image-3.592994da38bb121f16d1.png",
+    "index.html": "/citrine.react/index.html",
+    "main.c3b97dcf.css.map": "/citrine.react/static/css/main.c3b97dcf.css.map",
+    "main.4a77f9eb.js.map": "/citrine.react/static/js/main.4a77f9eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3b97dcf.css",
+    "static/js/main.4a77f9eb.js"
+  ]
+}
