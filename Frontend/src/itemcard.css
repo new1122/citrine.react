@@ -1,0 +1,87 @@
+.Itemcard{
+   /* display: flex; */
+    /* display: flex !important;
+    width: max-content !important;
+    padding: 5% !important;
+    margin: 0 !important;
+    text-align: center;
+    line-height: 0; */
+
+    /* border: 1px solid black; */
+
+line-height: 0.2;
+        /* display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+        gap: 1.5rem;
+        justify-content: center;
+        align-content: center; */
+    
+    }
+    .card1{
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        background: #fff;
+        text-align: center;
+        padding: 30px 20px;
+        /* width: max-content;
+        line-height: 0.2;
+            position: relative;
+            background-color: #fff;
+            border: 1px solid rgb(207, 197, 197);
+            box-shadow: 2rem 2rem 4rem rgba(0, 0, 0, 0.1);
+            border-radius: 13px;
+            height: min-content;
+            padding: 1rem;
+            overflow: hidden; */
+
+    }
+    .card1 img{
+        height: 20rem;
+    }
+
+    .body p{
+        text-align: left;
+    }
+    .body button{
+        width: 80%;
+        padding: 3%;
+        font-size: 1.2rem;
+        background-color: darkblue;
+        color: antiquewhite;
+    }
+    .body button:hover{
+        background-color: antiquewhite;
+        color: darkblue;
+        cursor: pointer;
+    }
+
+
+    
+    @media (max-width: 768px) {
+            .Itemcard{
+                /* display: grid !important;
+                grid-template-columns: repeat(auto-fit, minmax(1000px, auto));*/
+                width: 100%; 
+                padding-top: 5%;
+                padding-bottom: 5%;
+            }
+            .card1{
+                width: 100%; 
+                margin-left: 10%;
+                line-height: 0.2;
+                /* position: relative;
+                background-color: #fff;
+                border: 1px solid rgb(207, 197, 197);
+                box-shadow: 2rem 2rem 4rem rgba(0, 0, 0, 0.1);
+                border-radius: 3px;
+                height: min-content;
+                /* width: 85; */
+                /* padding: 1rem;
+                overflow: hidden; */
+            }
+            .card1 img{
+                height: 15rem;
+            }
+
+
+    }

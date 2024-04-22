@@ -1,0 +1,38 @@
+    .css-19kzrtu {
+        padding: 0 !important;
+    }
+    .MuiToolbar-root{
+        padding-left: 5rem !important;
+        padding-right: 5rem !important;
+        
+    }
+    .navbar{
+        background-color: white;
+    }
+    .MuiPaper-root {
+        background-color: white !important;
+        color: #192a56 !important;
+    }
+    Button{
+        color: darkblue;
+    }
+    .MuiButtonBase-root{
+        color: black !important;
+    }
+    .MuiButtonBase-root:hover{
+        color:antiquewhite !important;
+        background-color: darkblue !important;
+    }
+    .abcd{
+        margin-right: 7.5% !important;
+    }
+    svg{
+        height: 2em;
+        width: 2em;
+    }
+    
+    @media screen and (max-width: 1000px){
+        .MuiButtonBase-root{
+            display: inline;
+        }
+    }

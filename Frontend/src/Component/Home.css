@@ -1,0 +1,388 @@
+.home1 {
+    height: max-content;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.cards {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: -5%;
+}
+
+.part1 {
+    width: 50%;
+    align-items: center;
+    padding-left: 2rem;
+    /* justify-content: center; */
+    display: inline;
+    padding-right: 2rem;
+}
+
+.part2 {
+    width: 50%;
+}
+
+.part2 img {
+    width: 90%;
+}
+
+.buttonhome {
+    padding: 1rem;
+    display: inline-flex;
+    background-color: #192a56;
+    color: beige;
+    margin-left: .8rem;
+    font-size: 1.20rem;
+    font-family: garamond;
+    /* line-height: 1.5; */
+    white-space: nowrap;
+    margin-top: 0.2rem;
+    border-radius: 0.5rem;
+    transition: letter-spacing .5s;
+    font-weight: 100;
+}
+
+.buttonhome:hover {
+
+    letter-spacing: .1rem;
+    background-color: #27ae60;
+    color: black;
+    font-weight: 600;
+}
+
+.card {
+    width: 25%;
+    display: inline;
+    height: max-content;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.card:hover {
+    animation: shrink .3s;
+    background-color: #aeadad;
+    color: #192a56;
+    text-decoration: none;
+}
+
+@keyframes shrink {
+    0% {
+        rotate: 3deg;
+    }
+
+    25% {
+        rotate: -3deg;
+    }
+
+    50% {
+        rotate: 3deg;
+    }
+
+    95% {
+        rotate: -3deg;
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+}
+
+.BathroomAcces {
+    background-color: rgb(207, 207, 207);
+    /* width: 90%; */
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    display: inline-block;
+}
+
+.bathicon {
+    background-color: #b1e5c7;
+    border: 1px solid #666;
+    border-radius: 1.5rem;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.OtherHardware {
+    background-color: rgb(207, 207, 207);
+    /* width: 90%; */
+    text-align: center;
+    /* margin-top: 2rem; */
+    border-radius: 2rem;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.Kitchen {
+    background-color: rgb(207, 207, 207);
+    /* width: 90%; */
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.rightarrow {
+    border: 1px solid #666;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.rightarrow:hover {
+    background-color: #27ae60;
+    color: #192a56;
+
+}
+
+
+.container20 {
+    position: relative;
+    width: 40rem;
+    max-width: 100%;
+    height: 43rem;
+
+}
+
+.image20 {
+    position: absolute;
+    /* border-radius: 50%; */
+    text-align: center;
+    margin-left: 5rem;
+    width: 100%;
+    opacity: 0;
+    animation: change-img-anim 9s infinite;
+}
+
+.image20:nth-of-type(1) {
+    animation-delay: 0s;
+}
+
+.image20:nth-of-type(2) {
+    animation-delay: 4s;
+}
+
+.image20:nth-of-type(3) {
+    animation-delay: 8s;
+}
+
+@keyframes change-img-anim {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* name animation*/
+
+.text1 {
+    position: relative;
+    margin-top: -8%;
+}
+
+.text1::before {
+    content: "";
+    color: #ff7f50;
+    animation: words 20s infinite;
+    font-size: 4.5rem;
+    font-weight: bolder;
+}
+
+.text1::after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: #ffffff;
+    border-left: 2px solid #ff7f50;
+    right: 1px;
+    animation: cursor .8s infinite, typing 10s steps(10) infinite;
+}
+
+@keyframes cursor {
+    to {
+        border-left: 2px solid #ff7f5000;
+    }
+}
+
+@keyframes words {
+
+    0%,
+    33% {
+        content: "Bathroom Shelf";
+    }
+
+    33%,
+    66% {
+        content: "Soap Rack SS";
+    }
+
+    66%,
+    100% {
+        content: "Towel Rack";
+    }
+}
+
+@keyframes typing {
+
+    10%,
+    15%,
+    30%,
+    35%,
+    50%,
+    55%,
+    70%,
+    75%,
+    90%,
+    95% {
+        width: 0;
+    }
+
+    5%,
+    20%,
+    25%,
+    40%,
+    45%,
+    60%,
+    65%,
+    80%,
+    85% {
+        width: calc(100% + 8px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .home {
+        display: block;
+        margin-top: 0%;
+        width: 100%;
+    }
+
+    .home1 {
+        display: block;
+        width: 100%;
+        padding: 3%;
+        margin-top: 0%;
+    }
+
+    .bestproduct {
+        margin-top: 0%;
+        font-size: 1.3rem !important;
+    }
+
+    .part1 p {
+        font-size: 0.6rem !important;
+        text-align: left !important;
+    }
+    .text1::before {
+        content: "";
+        text-align: left;
+        color: #ff7f50;
+        animation: words 20s infinite;
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+    
+    .text1::after {
+        content: "";
+        position: absolute;
+        text-align: left;
+        /* width: calc(100% + 8px); */
+        /* height: 100%; */
+        background-color: #ffffff;
+        border-left: 2px solid #ff7f50;
+        right: 1px;
+        animation: cursor .8s infinite, typing 10s steps(10) infinite;
+    }
+    .buttonhome{
+        font-size: 1.1rem;
+    }
+    .part1 h2{
+        font-size: 1.1rem;
+        margin-top: 0%;
+    }
+    .part1 p{
+        width: 100%;
+        text-align: center;
+    }
+    .icons{
+        text-align: center;
+        margin-top: 0%;
+        font-size: 0.8rem;
+    }
+    .part1 {
+        width: 100%;
+    }
+
+    .part2 {
+        width: 100%;
+    }
+
+    .part2 img {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 2rem;
+    }
+    .cards{
+        margin-top: -60%;
+        width: 100%;
+        padding: 0%;
+    }
+    .card{
+        display: block;
+        font-size: 1.4rem;
+        font-weight: 800;
+        width: 90% !important;
+    }
+}
